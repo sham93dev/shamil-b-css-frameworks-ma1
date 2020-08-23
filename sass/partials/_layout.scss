@@ -1,0 +1,43 @@
+body {
+    background-color: $primary-color !important;
+    margin: 0;
+    padding: 0;
+    .header-text {
+        text-align: center;
+        font-family: $primary-font;
+        margin-top: 20px;
+    }
+}
+
+.container-cols {
+    margin-top: 140px;
+    margin-bottom: 140px;
+    text-align: center;
+    .row {
+        justify-content: center;
+    }
+}
+    .col {
+        border: 3px solid;
+        border-radius: 25px;
+        height: 250px;
+        flex: 0 0 250px;
+        margin: 15px;
+        max-width: none;
+    }
+
+    .col-box {
+        background-color: $secondary-color;
+        border-color: $secondary-color;
+        box-shadow: 0px 6px rgba(0, 0, 0, 0.187);
+    }
+
+    .col-pink-around {
+        border-color: $pink;
+        background-color: $white;
+    }
+
+    .col-pink-inside {
+        background-color: $pink;
+        border-color: $white;
+    }
